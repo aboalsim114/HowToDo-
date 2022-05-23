@@ -1,10 +1,10 @@
 
 import './App.css';
-
+import Home from './Composants/Home'
 function App() {
   return (
     <div className="App">
-      <h1>React jss</h1>
+      <Home />
     </div>
   );
 }
