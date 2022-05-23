@@ -13,9 +13,24 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding : 5px
+  padding : 5px;
+  
+
 }
 
+
+.navScroll{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0px 15px 30px rgba(126, 126, 126, 0.291);
+  background : #fff;
+  transition: all 0.8s ease-in-out;
+  
+}
 
 nav > .Logo {
 display : flex;
@@ -33,7 +48,8 @@ padding-left: 10px;
 
 
 .Logo >  img{
-  width : 50px
+  width : 50px;
+  
 }
 
 
@@ -94,4 +110,49 @@ line-height: 60px;
 .header > img{
   width : auto;
   height : auto;
+}
+
+.typing{
+color: green;
+word-break: break-all;
+font-size : 20px
+
+}
+
+
+.SearchDiv{
+ margin-top : 100px;
+ margin-bottom : 100px;
+  width: 30rem;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto
+}
+
+ .search{
+  width: 99%;
+  padding: 10px;
+  background: #FFFFFF;
+box-shadow: 0px 15px 30px rgba(126, 126, 126, 0.291);
+border-radius: 65px;
+text-align: center;
+border: 1px solid white;
+}
+
+.search:focus{
+  outline: none;
+}
+
+
+
+
+
+
+main{
+  border: 3px solid black;
+  width: 76rem;
+  height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }

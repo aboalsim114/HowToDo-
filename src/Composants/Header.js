@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="HeaderText">
-            <h1>Comment faire    <ReactTypingEffect  eraseDelay="1500" text={["un website", "un Logo!"]}/> </h1>
+            <h1>Comment faire    <ReactTypingEffect className="typing"  eraseDelay="1500" text={["........","un website", "un Logo!","trouver un Job"]}/> </h1>
             <img src={Logo} alt="logo" />
             <p>
             tu veux apprendre des choses mais tu sais pas par ou commencer ? 
